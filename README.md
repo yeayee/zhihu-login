@@ -30,7 +30,7 @@ timestamp = str(int(time.time()*1000))
 
 `signature` 通过 Ctrl+Shift+F 搜索找到是在一个 JS 里生成的，是通过 Hmac 算法对几个固定值和时间戳进行加密，那么只需要在 Python 里也模拟一次这个加密即可。
 
-<img src="https://github.com/zkqiang/Zhihu-Login/blob/master/docs/3.jpg" width=600 align=center alt="Python 内置 Hmac 函数，非常方便">
+<img src="https://avatars3.githubusercontent.com/u/12622452?s=96&v=4" width=600 align=center alt="Python 内置 Hmac 函数，非常方便">
 
 ```python
 def _get_signature(self, timestamp):
